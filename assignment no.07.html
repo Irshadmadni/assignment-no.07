@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 07</title>
+</head>
+<body style="background-color: chartreuse;">
+    <h1>Account opening Form</h1>
+    <h1 align="center">Account opening Form</h1>
+
+    <form method="post">
+        <table table align="center" width="700">
+            <tr >
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" style="border-radius: 20px;" placeholder="Your Name..."></td>
+            </tr>
+            <tr>
+                <td><label for="Name of(Father/Guardian)">Name of <br> (Father/Guardian)</label></td>
+                <td><input type="text" style="border-radius: 20px;" placeholder="Enter F/G Name"></td>
+            </tr>
+            <tr>
+                <td>
+                <label for="Date of Birth <sup>*</sup>(dd-mm-yyyy)">Date of Birth <sup>*</sup>(dd-mm-yyyy)</label> 
+                </td>
+                <td><input type="date" style="border-radius: 20px;"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender </label>
+                </td>
+                <td><input type="radio" name="Gender" id="Male">Male <input type="radio" name="Gender" id="Female">Female</td>
+            </tr>
+            <tr>
+                <td><label for="Nationality">Nationality </label></td>
+                <td><input type="text" style="border-radius: 20px;" placeholder="Enter Nationality">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="Account Type">Account Type </label></td>
+                <td>
+                    <input type="radio" name="Account Type">Savings
+                    <input type="radio" name="Account Type">FixedPreferences
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Preferences">Preferences </label></td>
+                <td>
+                    <input type="checkbox" name="Preferences" id="Internet Banking">Internet Banking 
+                    <input type="checkbox" name="Preferences" id="Mobile Banking">Mobile Banking 
+                    <input type="checkbox" name="Preferences" id="SMS Alerts">SMS Alerts 
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address </label></td>
+                <td><textarea name="Address" id="Address" cols="30" rows="5" style="border-radius: 20px;" placeholder="Enter Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country </label></td>
+                <td> <select name="Country" id="Country" style="border-radius: 20px;">
+                    <option value="Please Select">Please Select</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="China">China</option>
+                    <option value="Turkeya">Turkeya</option>
+                    <option value="Austrailia">Austrailia</option>
+                    <option value="U.S.A">U.S.A</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="Zip Code">Zip Code </label></td>
+                <td><input type="text" style="border-radius: 20px;" placeholder="Enter Code"></td>
+            </tr>
+            <tr>
+                <td><label for="Phone">Phone </label></td>
+                <td><input type="number" style="border-radius: 20px;" placeholder="Your Phone.."></td>
+            </tr>
+            <tr>
+                <td><label for="E mail">E mail </label></td>
+                <td><input type="email" style="border-radius: 20px;" placeholder="Your E mail.."></td>
+            </tr>
+            <tr>
+                <td><label for="Password(6-8 Characters)">Password(6-8 Characters) </label></td>
+                <td><input type="password" style="border-radius: 20px;" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label for="Verify Password">Verify Password </label></td>
+                <td><input type="password" style="border-radius: 20px;" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td><input type="submit" value="Submit" style="background-color: cornflowerblue; color: azure; border-radius: 20px;">
+                <input type="reset" value="Clear" style="background-color: brown; color: aliceblue; border-radius: 20px;">
+            </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
